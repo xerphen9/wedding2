@@ -6,7 +6,7 @@ export type NavigationProps = {
 
 const Navigation = ({ list }: NavigationProps) => {
   return (
-    <div className='fixed w-1/6 h-full'>
+    <div className='fixed z-30 w-1/6 h-full'>
         <ul className='absolute size-full top-1/4 left-7 italic text-xl text-gray-500'>
           {
             list.map((v,i) => 

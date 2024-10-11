@@ -32,6 +32,8 @@ export default {
         cormorantgaramond: ['cormorantgaramond']
       },
       gridTemplateRows: {
+        'full': '100%',
+        'norepeat': 'minmax(0, 1fr)',
         '19': 'repeat(19, min-content) 1fr',
       },
       gridTemplateColumns: {
