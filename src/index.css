@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "quicksand";
+  src: local('quicksand'), url('./assets/fonts/Quicksand.ttf');
+}
+
+@font-face {
+  font-family: "dancing";
+  src: local('Dancing-Script'), url('./assets/fonts/Dancing-Script.ttf');
+}
+
+@font-face {
+  font-family: "darleston";
+  src: local('Darleston'), url('./assets/fonts/Darleston.otf');
+}
+
+@font-face {
+  font-family: "gustatory";
+  src: local('GustatoryDelightRegular'), url('./assets/fonts/GustatoryDelightRegular-rgX3L.ttf');
+}
+
+@font-face {
+  font-family: "cormorantgaramond";
+  src: local('CormorantGaramond'), url('./assets/fonts/CormorantGaramond-Regular.ttf');
+}
