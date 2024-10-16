@@ -38,7 +38,7 @@ export default {
       },
       gridTemplateColumns: {
         'full': '100%',
-        'norepeat': 'minmax(0, 1fr)'
+        'norepeat': 'minmax(0, 1fr)',
       }
     },
   },

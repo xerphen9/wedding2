@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion, Variants } from "framer-motion"
+
 import gallery1 from '../../assets/images/gallery1.jpg'
 import gallery2 from '../../assets/images/gallery2.jpg'
 import gallery3 from '../../assets/images/gallery3.jpg'
@@ -15,12 +16,16 @@ export type GalleryProps = {
     imageData?: string[]
 }
 
-const Gallery = ({cols, imageData}: GalleryProps) => {
-    const imageGallery = [
-        gallery1, gallery2, gallery3, 
-        gallery4, gallery5, gallery6, 
-        gallery7, gallery8, gallery9
-    ]
+const Gallery = ({ cols, imageData }: GalleryProps) => {
+    const columns = []
+    const gridTotalColumns = `py-5 w-4/6 m-auto grid gap-2 grid-cols-${cols} items-start`
+
+    for (let i = 0; i < cols!; i++) {
+        columns.push(
+            <div className='relative grid grid-cols-norepeat gap-y-2'>
+            </div>
+        )
+    }
 
     return (
         <section>
@@ -28,40 +33,27 @@ const Gallery = ({cols, imageData}: GalleryProps) => {
                 <div className='py-10'>
                     <h1 className='font-dancing text-6xl text-center text-broken-white'>Our Gallery...</h1>
                 </div>
-                <div className={`static py-5 w-5/6 m-auto grid gap-2 grid-cols-${cols} items-start`}>
-                    <div className='relative grid grid-cols-norepeat gap-y-2'>
-                        {
-                            imageGallery.map((v, i) => {
-                                if (i % 2 === 0) {
-                                    return (
-                                        <figure className='m-0'>
-                                            <div className='flex flex-col gap-y-3'>
-                                                <img src={v} alt="" loading='lazy' className='w-full min-h-0 object-cover' key={i} />
-                                            </div>
-                                        </figure>
-                                    )
-                                }
-                            })
-                        }
-                    </div>
-                    <div className='relative grid grid-cols-norepeat gap-y-2'>
-                        {
-                            imageGallery.map((v, i) => {
-                                if (i % 2 !== 0) {
-                                    return (
-                                        <figure className='m-0'>
-                                            <div className='flex flex-col gap-y-3'>
-                                                <img src={v} alt="" loading='lazy' className='w-full min-h-0 object-cover' key={i} />
-                                            </div>
-                                        </figure>
-                                    )
-                                }
-                            })
-                        }
+                <div className='w-5/6 m-auto'>
+                    <div className='flex flex-wrap'>
+                        <div className='basis-1/3 max-w-[33%]'>
+                            <img src={gallery1} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                            <img src={gallery2} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                            <img src={gallery8} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                        </div>
+                        <div className='basis-1/3 max-w-[33%]'>
+                            <img src={gallery7} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                            <img src={gallery4} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                            <img src={gallery6} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                        </div>
+                        <div className='basis-1/3 max-w-[33%]'>
+                            <img src={gallery3} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                            <img src={gallery5} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                            <img src={gallery9} alt="" loading='lazy' className='w-full min-h-0 object-cover align-middle p-1' />
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 
