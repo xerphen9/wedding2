@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Home from './pages/mobile/Home'
 import OurStory from './pages/mobile/OurStory'
 import Gallery from './pages/mobile/Gallery'
