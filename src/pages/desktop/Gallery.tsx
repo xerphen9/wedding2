@@ -8,22 +8,7 @@ import gallery7 from '../../assets/images/gallery7.jpg'
 import gallery8 from '../../assets/images/gallery8.jpg'
 import gallery9 from '../../assets/images/gallery9.jpg'
 
-export type GalleryProps = {
-    cols?: number
-    imageData?: string[]
-}
-
-const Gallery = ({ cols, imageData }: GalleryProps) => {
-    const columns = []
-    const gridTotalColumns = `py-5 w-4/6 m-auto grid gap-2 grid-cols-${cols} items-start`
-
-    for (let i = 0; i < cols!; i++) {
-        columns.push(
-            <div className='relative grid grid-cols-norepeat gap-y-2'>
-            </div>
-        )
-    }
-
+const Gallery = () => {
     return (
         <section>
             <div className='bg-dark-gray p-3'>
