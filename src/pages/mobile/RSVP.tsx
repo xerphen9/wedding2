@@ -1,4 +1,4 @@
-import React, {useState, FormEvent} from 'react'
+import {useState, FormEvent} from 'react'
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 import { FaHeart, FaHeartBroken, FaCopy } from 'react-icons/fa'
 

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Footer = () => {
     const copyright = '\u00A9'
 

@@ -1,6 +1,3 @@
-import React from 'react'
-import { motion, Variants } from "framer-motion"
-
 import gallery1 from '../../assets/images/gallery1.webp'
 import gallery2 from '../../assets/images/gallery2.webp'
 import gallery3 from '../../assets/images/gallery3.webp'

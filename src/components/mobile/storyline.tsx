@@ -1,4 +1,3 @@
-import React from 'react'
 import circle from '../../assets/images/circle.png'
 
 const Storyline = () => {

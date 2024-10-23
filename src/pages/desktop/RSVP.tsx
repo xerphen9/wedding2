@@ -1,4 +1,3 @@
-import React from 'react'
 import Banner from '../../components/desktop/banner'
 
 import banner3 from '../../assets/images/banner3.webp'

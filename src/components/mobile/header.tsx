@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaBars } from "react-icons/fa6";
 
 export type HeaderProps = {

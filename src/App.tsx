@@ -1,4 +1,3 @@
-import React, { FormEvent, useState } from 'react'
 import MobileUI from './mobileUI'
 import DesktopUI from './desktopUI'
 import './App.css'

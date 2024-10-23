@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion, Variants } from "framer-motion"
 
 import banner2 from './assets/images/banner2.webp'
