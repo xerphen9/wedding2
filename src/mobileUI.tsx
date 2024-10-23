@@ -7,14 +7,16 @@ import Header from './components/mobile/header'
 import Banner from './components/mobile/banner'
 import Footer from './components/mobile/footer'
 
+import banner2 from './assets/images/banner2.webp'
+
 const MobileUI = () => {
     return (
     <> 
         <div className='container size-full block sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden'>
-          <Header title='D&M' menuBar={true} />
+          <Header title='D&M' />
           <Home />
           <OurStory />
-          <Banner imageFile='/src/assets/images/banner2.jpg' fixed={false}>
+          <Banner imageFile={banner2} fixed={false}>
             <div className='absolute inset-x-0 top-10 text-center tracking-widest font-cormorantgaramond'>
               <h1 className='text-4xl text-dark-brown'>THE</h1>
               <h1 className='text-5xl italic text-neutral-500'>Wedding</h1>

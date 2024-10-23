@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'banner': "url('/src/assets/images/banner.jpg')",
-        'banner2': "url('/src/assets/images/banner2.jpg')",
+        'banner': "url('/src/assets/images/banner.webp')",
+        'banner2': "url('/src/assets/images/banner2.webp')",
       },
       backgroundColor: {
         'dark-brown': '#3D2E2B',

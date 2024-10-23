@@ -1,12 +1,12 @@
 import React from 'react'
 import { motion, Variants } from "framer-motion"
 
-import gallery1 from '../../assets/images/gallery1.jpg'
-import gallery2 from '../../assets/images/gallery2.jpg'
-import gallery3 from '../../assets/images/gallery3.jpg'
-import gallery4 from '../../assets/images/gallery4.jpg'
-import gallery5 from '../../assets/images/gallery5.jpg'
-import gallery6 from '../../assets/images/gallery6.jpg'
+import gallery1 from '../../assets/images/gallery1.webp'
+import gallery2 from '../../assets/images/gallery2.webp'
+import gallery3 from '../../assets/images/gallery3.webp'
+import gallery4 from '../../assets/images/gallery4.webp'
+import gallery5 from '../../assets/images/gallery5.webp'
+import gallery6 from '../../assets/images/gallery6.webp'
 import gallery7 from '../../assets/images/gallery7.jpg'
 import gallery8 from '../../assets/images/gallery8.jpg'
 import gallery9 from '../../assets/images/gallery9.jpg'

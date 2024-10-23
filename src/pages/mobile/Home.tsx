@@ -2,9 +2,11 @@ import React from 'react'
 
 import Banner from '../../components/mobile/banner'
 
+import banner from '../../assets/images/banner.jpg'
+
 const Home = () => {
     return (
-        <Banner imageFile='/src/assets/images/banner.jpg' fixed={true}>
+        <Banner imageFile={banner} fixed={true}>
             <div className='flex w-full bg-transparent h-24 justify-between'>
                 <section className='text-center text-lg py-5 px-10'>
                     <h2>Dec 7th,</h2>

@@ -3,7 +3,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard'
 import { FaHeart, FaHeartBroken, FaCopy } from 'react-icons/fa'
 
 import BCA from '../../assets/images/bca.png'
-import banner3 from '../../assets/images/banner3.jpg'
+import banner3 from '../../assets/images/banner3.webp'
 
 import Modal from '../../components/mobile/modal'
 import Button from '../../components/mobile/button'

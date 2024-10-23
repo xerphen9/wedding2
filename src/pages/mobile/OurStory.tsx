@@ -1,11 +1,11 @@
 import React from 'react'
 import { motion, Variants } from "framer-motion"
 
-import couples1 from '../../assets/images/couples1.jpg'
-import couples2 from '../../assets/images/couples2.jpg'
-import couples3 from '../../assets/images/couples3.jpg'
-import couples4 from '../../assets/images/couples4.jpg'
-import couples5 from '../../assets/images/couples5.jpg'
+import couples1 from '../../assets/images/couples1.webp'
+import couples2 from '../../assets/images/couples2.webp'
+import couples3 from '../../assets/images/couples3.webp'
+import couples4 from '../../assets/images/couples4.webp'
+import couples5 from '../../assets/images/couples5.webp'
 
 import Storyline from '../../components/mobile/storyline'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion, Variants } from "framer-motion"
 
-import banner2 from './assets/images/banner2.jpg'
+import banner2 from './assets/images/banner2.webp'
 
 import Home from './pages/desktop/Home'
 import OurStory from './pages/desktop/OurStory'
